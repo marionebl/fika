@@ -10,9 +10,9 @@ var config = {
 };
 firebase.initializeApp(config);
 
-const root = firebase.database().ref();
-const contacts = firebase.database().ref('users');
-const expenses = firebase.database().ref('expenses');
+const root = firebase.database().ref()
+const contacts = firebase.database().ref('users')
+const expenses = firebase.database().ref('expenses')
 
 const Fb = {
   root,
